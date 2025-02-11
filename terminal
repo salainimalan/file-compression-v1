@@ -1,0 +1,27 @@
+TERMINAL:
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\salai_wciilqo> cd..
+PS C:\Users> cd..
+PS C:\> cd "E:\osp"
+PS E:\osp> gcc pro3.c -o huffman1 -lpthread
+PS E:\osp> ./huffman1 60mb.txt
+Original File Size: 60985773 bytes
+Compressed File Size: 29578101 bytes
+Compression Reduction: 51.50%
+PS E:\osp>
+----------------------------------------------------------------------------------------------
+compressing the word report that i have submitted:(has lower reduction due its very small size)
+----------------------------------------------------------------------------------------------
+TERMINAL:
+PS E:\osp> ./huffman1 op1.txt
+Original File Size: 9326 bytes
+Compressed File Size: 6716 bytes
+Compression Reduction: 27.99%
+PS E:\osp>
+-----------------------------------------------------------------------------------------------
+the output also provides the decompressed file in both binary and text format.
+-----------------------------------------------------------------------------------------------
